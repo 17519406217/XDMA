@@ -16,7 +16,8 @@ int main()
   
   sys_read32(int bar, long long int addr, unsigned int *data, int bus_id);
   //sys_read32 Example:
-  //return_val  = sys_read32(Default bar = 0, addr, *data, int bus_id);//bus_id=device_num
+  //unsigned int return_val = 0;
+  //sys_read32(Default bar = 0, addr, &return_val, int bus_id);//bus_id=device_num
   //Register val = return_val
   
   //FPGA dma
