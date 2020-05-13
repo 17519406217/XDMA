@@ -1,8 +1,7 @@
 
 ***Install the Xilinx driver before using this project.***     
 update dma code   
-update Optimize invocation mode  
-code：  
+update Optimize invocation mode   
 ```
 int main()
 {
