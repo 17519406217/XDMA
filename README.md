@@ -1,7 +1,7 @@
 
 ***Install the Xilinx driver before using this project.***   
-
-Modify xdma_data_uplode.c deviceName and xdma_data_uplode.h DEFINE_GUID(deviceName、DEFINE_GUID is Device instance path).  
+update dma code 
+update Optimize invocation mode
 code：  
 ```
 int main()
